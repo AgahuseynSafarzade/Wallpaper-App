@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profil"
+    android:background="@drawable/settings_background_yellow">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        tools:context=".Profile">
+
+
+        <ImageView
+            android:id="@+id/settings_image"
+            android:layout_width="380dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/usertext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:drawablePadding="10dp"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textColor="#5633d1"
+            android:textSize="20dp"
+            android:typeface="sans">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usertext"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="23dp"
+            android:textAlignment="center"
+            android:textColor="#5633d1"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_image"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="#C1FFFFFF"
+            android:orientation="vertical"
+            app:cornerRadius="30dp"
+            android:padding="24dp">
+
+
+            <EditText
+                android:id="@+id/new_password"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:background="#CFCFCF"
+                android:hint="Enter New Password"
+                android:textColor="#5633D1"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColorHint="#5633D1" />
+
+            <Button
+                android:id="@+id/update_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/new_password"
+                android:layout_centerHorizontal="true"
+                android:text="Update Password"
+                app:cornerRadius="30dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#FFCA28"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:backgroundTint="#f9b208" />
+
+            <Button
+                app:icon="@drawable/ic_baseline_favorite_24"
+                android:id="@+id/favorites_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/update_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Liked Photos"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textStyle="bold|italic"
+                app:backgroundTint="#f9b208"
+                app:cornerRadius="30dp"
+                app:iconTint="#9E0505"
+                app:strokeColor="#FFCA28"
+                app:strokeWidth="3dp" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exit_button"
+            app:icon="@drawable/ic_baseline_west_24"
+            app:iconSize="30dp"
+            app:iconTint="#5633D1"
+            android:backgroundTint="#FEFEFE"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="5dp"
+            app:strokeWidth="3dp"
+            app:strokeColor="#FFCA28"
+            app:cornerRadius="30dp"
+            android:text="Log out"
+            android:textColor="#5633D1"
+            android:layout_marginTop="5dp"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

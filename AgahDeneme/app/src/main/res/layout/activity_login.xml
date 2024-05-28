@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background_yellow_line"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/login_image"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-190dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="#D5FFFFFF"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="#fd8700"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:background="@drawable/edit_text_arkaplan"
+                android:padding="6dp"
+                android:id="@+id/user_name"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="User Name"
+                android:textAlignment="center"
+                android:textColor="#fd8700"
+                android:textColorHint="#fbb72d"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+            <EditText
+                android:background="@drawable/edit_text_arkaplan"
+                android:padding="6dp"
+                android:id="@+id/user_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="#fd8700"
+                android:textColorHint="#fbb72d"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Forgot my password?"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/gri" />
+            <Button
+                android:background="@drawable/button_arkaplan"
+                android:padding="1dp"
+                android:id="@+id/button_signin"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="1dp"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                app:backgroundTint="#fbb72d"
+                app:backgroundTintMode="src_in"
+                app:iconTint="#00FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="OR"
+                android:textAlignment="center"
+                android:textColor="#FBB72D" />
+
+            <Button
+                android:background="@drawable/button_arkaplan"
+                android:padding="1dp"
+                android:id="@+id/button_register"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="30dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                app:backgroundTint="#fbb72d"
+                app:iconTint="#FFFFFF" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
