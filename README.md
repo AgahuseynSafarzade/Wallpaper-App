@@ -7,6 +7,10 @@
 
 Bu mobil uygulama, kullanıcıların farklı kategorilerden duvar kağıtları bulabilecekleri, paylaşabilecekleri, indirebilecekleri ve uygulama içinden duvar kağıdı olarak kullanabilecekleri bir platform sunmaktadır.
 
+![Ekran görüntüsü 2023-06-17 072653](https://github.com/AgahuseynSafarzade/Wallpaper-App/assets/149402548/c0695509-2b56-4b4b-897d-0201408c08cc)
+
+![Ekran görüntüsü 2023-06-17 074838](https://github.com/AgahuseynSafarzade/Wallpaper-App/assets/149402548/74d2c71e-bf07-46d7-9bb1-2990c3901bc8)
+
 ## Özellikler
 
 - Farklı kategorilerden duvar kağıdı bulma ve indirme
