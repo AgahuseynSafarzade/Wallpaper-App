@@ -28,11 +28,6 @@ Bu mobil uygulama, kullanıcıların farklı kategorilerden duvar kağıtları b
 - [MongoDB](https://www.mongodb.com/)
 
 ### Adımlar
-
-1. **Depoyu klonlayın:**
-   ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
    
 ### Android Uygulamasının Açılması
 
